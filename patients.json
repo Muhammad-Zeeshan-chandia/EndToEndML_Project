@@ -1,0 +1,72 @@
+[
+  {
+    "patient_id": "P001",
+    "first_name": "John",
+    "last_name": "Doe",
+    "date_of_birth": "1985-04-12",
+    "gender": "Male",
+    "blood_type": "O+",
+    "contact": {
+      "phone": "+1-555-1234",
+      "email": "john.doe@example.com",
+      "address": "123 Main St, Springfield, IL"
+    },
+    "medical_history": ["Hypertension", "Asthma"]
+  },
+  {
+    "patient_id": "P002",
+    "first_name": "Emily",
+    "last_name": "Clark",
+    "date_of_birth": "1992-09-30",
+    "gender": "Female",
+    "blood_type": "A-",
+    "contact": {
+      "phone": "+1-555-5678",
+      "email": "emily.clark@example.com",
+      "address": "456 Oak St, Madison, WI"
+    },
+    "medical_history": ["Diabetes Type 2"]
+  },
+  {
+    "patient_id": "P003",
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "date_of_birth": "1978-12-05",
+    "gender": "Male",
+    "blood_type": "B+",
+    "contact": {
+      "phone": "+1-555-8765",
+      "email": "michael.smith@example.com",
+      "address": "789 Pine St, Albany, NY"
+    },
+    "medical_history": ["High Cholesterol"]
+  },
+  {
+    "patient_id": "P004",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "date_of_birth": "2000-07-22",
+    "gender": "Female",
+    "blood_type": "AB+",
+    "contact": {
+      "phone": "+1-555-2345",
+      "email": "sarah.johnson@example.com",
+      "address": "101 Maple Ave, Austin, TX"
+    },
+    "medical_history": ["Allergy to Penicillin"]
+  },
+  {
+    "patient_id": "P005",
+    "first_name": "David",
+    "last_name": "Lee",
+    "date_of_birth": "1969-03-18",
+    "gender": "Male",
+    "blood_type": "O-",
+    "contact": {
+      "phone": "+1-555-4321",
+      "email": "david.lee@example.com",
+      "address": "202 Elm St, Portland, OR"
+    },
+    "medical_history": ["Arthritis", "Sleep Apnea"]
+  }
+]
