@@ -6,9 +6,7 @@ from datetime import datetime
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
 # Set logs path
-logs_path = os.path.join(os.getcwd(), "logs", LOG_FILE)
-
-# Create directories if they don't exist
+logs_path = os.path.join(os.getcwd(), "logs")
 os.makedirs(logs_path, exist_ok=True)
 
 # Full log file path
@@ -21,5 +19,4 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-if __name__=="__main__":
-    logging.info("Logging has started")
+
